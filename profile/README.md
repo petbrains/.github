@@ -10,7 +10,14 @@ Open-source frameworks and workflows for shipping real products with AI agents �
 
 ## The problem we keep hitting
 
-AI coding agents are brilliant but unreliable. They hallucinate. They cut corners — stubs, mocks, "TODO: implement later". They forget context between sessions. They say "done" when work is half-finished. You start using AI to save time and end up debugging its mistakes.
+AI coding agents are brilliant but unreliable:
+
+- 🎭 **They hallucinate** — write code that "looks right" but doesn't work
+- 🦥 **They cut corners** — stubs, mocks, "TODO: implement later"
+- 🧠 **They forget** — lose context between sessions
+- ✅ **They lie** — say "done" when work is half-finished
+
+You start using AI to save time and end up debugging its mistakes.
 
 The fix is not better prompts. It is structured workflow:  
 **specs before code, verification before commit, documents as source of truth.**
@@ -40,6 +47,7 @@ Built in our workflow. Shared with you.
 Each tool started as something we needed in our own builds. Free, open source, and ready to drop into your Claude Code setup.
 
 ### [mvp-builder](https://github.com/petbrains/mvp-builder)
+*👉 Start here — this is the foundation everything else plugs into.*  
 **Build MVPs with an AI agent that verifies its own work.**  
 A Document-Driven Development framework for Claude Code. Specs generate code, TDD cycles guarantee tests, self-review catches the agent before it commits broken work, and session memory keeps context across runs.
 
@@ -51,15 +59,13 @@ Four user-facing commands (`/setup`, `/create`, `/improve`, `/review`) cover the
 **A curated design-knowledge catalog for AI coding agents.**  
 Stop letting Claude, Cursor, or Copilot guess hex codes and font pairings. Give them a real, opinionated source of truth — over MCP. Powers `design-builder` and works standalone in any MCP-capable client.
 
-*We ship something new every few weeks. Subscribe on [YouTube](https://youtube.com/@petbrains) to hear when the next tool drops.*
+*Follow on [YouTube](https://youtube.com/@petbrains) for new tools as they drop. If a tool clicks for you, ⭐ the repo — helps us prioritize what to build next.*
 
 ---
 
 ## Beyond the tools
 
-Tools are an instance of the methodology. **[petbrains.dev](https://petbrains.dev)** is where we write up the methodology itself — walkthroughs, build films, and deeper dives into how we work.
-
-Subscribe on [YouTube](https://youtube.com/@petbrains) for new builds and methodology breakdowns.
+Tools are an instance of the methodology. **[petbrains.dev](https://petbrains.dev)** is where we write up the methodology itself — walkthroughs, build films, and deeper dives into how we work. Subscribe there to get new posts in your inbox.
 
 ---
 
@@ -74,11 +80,5 @@ Subscribe on [YouTube](https://youtube.com/@petbrains) for new builds and method
 **Strong opinions, weak attachments.** We respect feedback. We don't outsource our thinking.
 
 ---
-
-## Connect
-
-- **YouTube** — [@petbrains](https://youtube.com/@petbrains) — workflows, builds, demos
-- **GitHub** — [github.com/petbrains](https://github.com/petbrains) — all repositories  
-- **petbrains.dev** — methodology, walkthroughs, build films
 
 *All projects MIT licensed.*
